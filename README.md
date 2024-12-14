@@ -53,7 +53,7 @@ Skripsi-Product-Detection-App/
 3. Jalankan aplikasi dengan perintah:
     python src/main.py
 
-🛠️ Panduan Penggunaan
+## 🛠️ Panduan Penggunaan
 ### Mode File
 - Pilih tombol File di menu utama.
 - Klik tombol Upload Gambar untuk mengunggah file gambar.
@@ -68,13 +68,13 @@ Skripsi-Product-Detection-App/
 - Klik tombol Mulai Pengenalan untuk mendeteksi produk dalam gambar yang diambil.
 - Hasil pengenalan akan muncul di layar.
 
-💻 Spesifikasi Minimum
+## 💻 Spesifikasi Minimum
 - OS: Windows 10 atau lebih baru
 - RAM: Minimal 4GB (Direkomendasikan 8GB)
 - Prosesor: Intel Core i5 atau setara
 - GPU (Opsional): Untuk akselerasi TensorFlow
 
-⚠️ Masalah Umum
+## ⚠️ Masalah Umum
 1. Error: File tidak ditemukan
 Pastikan file model dan folder _internal sudah diletakkan pada lokasi yang sesuai.
 
@@ -84,13 +84,13 @@ Periksa pencahayaan atau pastikan produk terlihat jelas di gambar.
 3. File .exe tidak bisa dijalankan
 Pastikan semua file dependensi sudah disertakan (misalnya, folder _internal).
 
-📜 Lisensi
+## 📜 Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
-👤 Kontributor
+## 👤 Kontributor
 - Nama: Stevenson Tjuaca
 - Email: tjuacastevenson@gmail.com
 
-📘 Manual Penggunaan
+## 📘 Manual Penggunaan
 Manual penggunaan aplikasi tersedia dalam folder:
 manual/manual.pdf.
