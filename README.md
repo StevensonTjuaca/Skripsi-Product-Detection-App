@@ -20,7 +20,7 @@ Aplikasi **Product Detection App** dirancang sebagai bagian dari proyek skripsi 
 ## 📥 Cara Mendapatkan File Besar
 Beberapa file besar seperti folder `_internal` tidak diunggah ke GitHub karena keterbatasan ukuran. Silakan unduh file berikut dari Google Drive:
 - [Folder _internal](https://drive.google.com/drive/folders/1zyFqBbZv1z9fXSConalnXiVDJ0QYrt4c?usp=sharing)
-Setelah mengunduh file tersebut, letakkan di folder sesuai struktur proyek berikut:
+Setelah mengunduh file tersebut, letakkan di folder build/
 
 
 ## 📂 Struktur Proyek
