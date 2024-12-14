@@ -24,20 +24,7 @@ Setelah mengunduh file tersebut, letakkan di folder sesuai struktur proyek berik
 
 
 ## 📂 Struktur Proyek
-Skripsi-Product-Detection-App/
-│
-├── README.md                # Penjelasan lengkap tentang project
-├── src/                     # Folder untuk source code
-│   ├── Skripsi.py              # Source code utama aplikasi
-│   ├── model_mobilenet_fixed1.h5 # File model
-│   ├── Logo.png             # File logo
-│   ├── background.jpg       # Background
-├── build/                   # Folder untuk file .exe
-│   ├── ProductDetectionApp.exe
-│   └── _internal/           # Folder internal yang berisi dependensi .dll
-├── manual/                  # Folder untuk manual penggunaan
-│   └── UserManual.pdf       # Manual penggunaan dalam PDF
-├── LICENSE                  # File lisensi
+Skripsi-Product-Detection-App/ │ ├── README.md # Penjelasan lengkap tentang project ├── src/ # Folder untuk source code │ ├── Skripsi.py # Source code utama aplikasi │ ├── model_mobilenet_fixed1.h5 # File model │ ├── Logo.png # File logo │ ├── background.jpg # Background ├── build/ # Folder untuk file .exe │ ├── ProductDetectionApp.exe │ └── _internal/ # Folder internal yang berisi dependensi .dll ├── manual/ # Folder untuk manual penggunaan │ └── UserManual.pdf # Manual penggunaan dalam PDF ├── LICENSE # File lisensi
 
 ## 📦 Cara Menjalankan Aplikasi
 
@@ -54,43 +41,43 @@ Skripsi-Product-Detection-App/
     python src/main.py
 
 🛠️ Panduan Penggunaan
-Mode File
--Pilih tombol File di menu utama.
--Klik tombol Upload Gambar untuk mengunggah file gambar.
--Gambar yang berhasil diunggah akan ditampilkan di layar.
--Klik tombol Mulai Pengenalan untuk mendeteksi produk dalam gambar.
--Hasil pengenalan akan muncul di bawah gambar.
+### Mode File
+- Pilih tombol File di menu utama.
+- Klik tombol Upload Gambar untuk mengunggah file gambar.
+- Gambar yang berhasil diunggah akan ditampilkan di layar.
+- Klik tombol Mulai Pengenalan untuk mendeteksi produk dalam gambar.
+- Hasil pengenalan akan muncul di bawah gambar.
 
-Mode Kamera
--Pilih tombol Camera di menu utama.
--Kamera akan menyala dan menampilkan umpan langsung.
--Klik tombol Capture untuk mengambil gambar.
--Klik tombol Mulai Pengenalan untuk mendeteksi produk dalam gambar yang diambil.
--Hasil pengenalan akan muncul di layar.
+### Mode Kamera
+- Pilih tombol Camera di menu utama.
+- Kamera akan menyala dan menampilkan umpan langsung.
+- Klik tombol Capture untuk mengambil gambar.
+- Klik tombol Mulai Pengenalan untuk mendeteksi produk dalam gambar yang diambil.
+- Hasil pengenalan akan muncul di layar.
 
-💻 Spesifikasi Minimum
-OS: Windows 10 atau lebih baru
-RAM: Minimal 4GB (Direkomendasikan 8GB)
-Prosesor: Intel Core i5 atau setara
-GPU (Opsional): Untuk akselerasi TensorFlow
+##💻 Spesifikasi Minimum
+- OS: Windows 10 atau lebih baru
+- RAM: Minimal 4GB (Direkomendasikan 8GB)
+- Prosesor: Intel Core i5 atau setara
+- GPU (Opsional): Untuk akselerasi TensorFlow
 
-⚠️ Masalah Umum
-1.Error: File tidak ditemukan
+##⚠️ Masalah Umum
+1. Error: File tidak ditemukan
 Pastikan file model dan folder _internal sudah diletakkan pada lokasi yang sesuai.
 
-2.Error saat mendeteksi produk
+2. Error saat mendeteksi produk
 Periksa pencahayaan atau pastikan produk terlihat jelas di gambar.
 
-3.File .exe tidak bisa dijalankan
+3. File .exe tidak bisa dijalankan
 Pastikan semua file dependensi sudah disertakan (misalnya, folder _internal).
 
-📜 Lisensi
+##📜 Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
-👤 Kontributor
-Nama: Stevenson Tjuaca
-Email: tjuacastevenson@gmail.com
+##👤 Kontributor
+- Nama: Stevenson Tjuaca
+- Email: tjuacastevenson@gmail.com
 
-📘 Manual Penggunaan
+##📘 Manual Penggunaan
 Manual penggunaan aplikasi tersedia dalam folder:
 manual/UserManual.pdf.
