@@ -1,27 +1,29 @@
-Skripsi - Product Detection App
-Deskripsi Proyek
-Aplikasi Product Detection App ini dirancang sebagai bagian dari proyek skripsi untuk mendeteksi produk tertentu menggunakan teknologi computer vision. Aplikasi ini memanfaatkan TensorFlow untuk klasifikasi gambar, MediaPipe untuk deteksi tangan, dan Tkinter sebagai antarmuka pengguna (GUI).
+# Skripsi - Product Detection App
 
-Fitur Utama
-📂 Mode File: Unggah file gambar untuk mendeteksi produk di dalamnya.
-📸 Mode Kamera: Tangkap gambar langsung dari kamera untuk deteksi real-time.
-🔍 Pengolahan Gambar Otomatis: Deteksi tangan untuk menentukan area gambar yang relevan.
-💻 Antarmuka Pengguna: Antarmuka grafis yang ramah pengguna dibangun menggunakan Tkinter.
+## Deskripsi Proyek
+Aplikasi **Product Detection App** dirancang sebagai bagian dari proyek skripsi untuk mendeteksi produk tertentu menggunakan teknologi computer vision. Aplikasi ini memanfaatkan **TensorFlow** untuk klasifikasi gambar, **MediaPipe** untuk deteksi tangan, dan **Tkinter** sebagai antarmuka pengguna (GUI).
 
-Teknologi yang Digunakan
--Python: Bahasa pemrograman utama.
--TensorFlow: Untuk pelatihan dan prediksi model deep learning.
--MediaPipe: Untuk deteksi tangan berbasis landmark.
--OpenCV: Untuk manipulasi gambar dan kamera.
--Tkinter: Untuk antarmuka pengguna grafis.
 
-📥 Cara Mendapatkan File Besar
-Beberapa file besar seperti model, executable, dan folder _internal tidak diunggah ke GitHub karena keterbatasan ukuran. Silakan unduh file berikut dari Google Drive:
-- [Model TensorFlow](https://drive.google.com/file/d/1HrBEtfYS6yKSnuwo8Xj7OFb5LOgcDpQG/view?usp=sharing)
+## Fitur Utama
+- 📂 **Mode File**: Unggah file gambar untuk mendeteksi produk di dalamnya.
+- 📸 **Mode Kamera**: Tangkap gambar langsung dari kamera untuk deteksi secara real-time.
+- 🔍 **Pengolahan Gambar Otomatis**: Deteksi tangan untuk menentukan area gambar yang relevan.
+- 💻 **Antarmuka Pengguna**: Antarmuka grafis yang ramah pengguna dibangun menggunakan Tkinter.
+
+## Teknologi yang Digunakan
+- **Python**: Bahasa pemrograman utama.
+- **TensorFlow**: Untuk pelatihan dan prediksi model deep learning.
+- **MediaPipe**: Untuk deteksi tangan berbasis landmark.
+- **OpenCV**: Untuk manipulasi gambar dan kamera.
+- **Tkinter**: Untuk antarmuka pengguna grafis.
+
+## 📥 Cara Mendapatkan File Besar
+Beberapa file besar seperti folder `_internal` tidak diunggah ke GitHub karena keterbatasan ukuran. Silakan unduh file berikut dari Google Drive:
+- [Folder _internal](https://drive.google.com/drive/folders/1zyFqBbZv1z9fXSConalnXiVDJ0QYrt4c?usp=sharing)
 Setelah mengunduh file tersebut, letakkan di folder sesuai struktur proyek berikut:
 
 
-📂 Struktur Proyek
+## 📂 Struktur Proyek
 Skripsi-Product-Detection-App/
 │
 ├── README.md                # Penjelasan lengkap tentang project
@@ -37,16 +39,18 @@ Skripsi-Product-Detection-App/
 │   └── UserManual.pdf       # Manual penggunaan dalam PDF
 ├── LICENSE                  # File lisensi
 
-📦 Cara Menjalankan Aplikasi
-1. Menggunakan File .exe
-    1.Navigasikan ke folder build/.
-    2.Jalankan file ProductDetectionApp.exe dengan klik dua kali.
+## 📦 Cara Menjalankan Aplikasi
 
-2. Menjalankan dari Source Code
-    1.Pastikan Python 3.10 atau versi kompatibel telah diinstal.
-    2.Instal semua dependensi yang diperlukan:
-    pip install -r requirements.txt
-    3.Jalankan aplikasi dengan perintah:
+### 1. Menggunakan File `.exe`
+1. Navigasikan ke folder `build/`.
+2. Jalankan file `ProductDetectionApp.exe` dengan klik dua kali.
+
+### 2. Menjalankan dari Source Code
+1. Pastikan Python 3.10 atau versi kompatibel telah diinstal.
+2. Instal semua dependensi yang diperlukan:
+   ```bash
+   pip install -r requirements.txt
+3. Jalankan aplikasi dengan perintah:
     python src/main.py
 
 🛠️ Panduan Penggunaan
