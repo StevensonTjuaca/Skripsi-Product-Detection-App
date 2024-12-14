@@ -24,7 +24,20 @@ Setelah mengunduh file tersebut, letakkan di folder sesuai struktur proyek berik
 
 
 ## 📂 Struktur Proyek
-Skripsi-Product-Detection-App/ │ ├── README.md # Penjelasan lengkap tentang project ├── src/ # Folder untuk source code │ ├── Skripsi.py # Source code utama aplikasi │ ├── model_mobilenet_fixed1.h5 # File model │ ├── Logo.png # File logo │ ├── background.jpg # Background ├── build/ # Folder untuk file .exe │ ├── ProductDetectionApp.exe │ └── _internal/ # Folder internal yang berisi dependensi .dll ├── manual/ # Folder untuk manual penggunaan │ └── UserManual.pdf # Manual penggunaan dalam PDF ├── LICENSE # File lisensi
+
+Skripsi-Product-Detection-App/
+├── README.md                # Penjelasan lengkap tentang project
+├── src/                     # Folder untuk source code
+│   ├── Skripsi.py              # Source code utama aplikasi
+│   ├── model_mobilenet_fixed1.h5 # File model
+│   ├── Logo.png             # File logo
+│   └── background.jpg       # Background
+├── build/                   # Folder untuk file .exe
+│   ├── ProductDetectionApp.exe
+│   └── _internal/           # Folder internal yang berisi dependensi .dll
+├── manual/                  # Folder untuk manual penggunaan
+│   └── UserManual.pdf       # Manual penggunaan dalam PDF
+└── LICENSE                  # File lisensi
 
 ## 📦 Cara Menjalankan Aplikasi
 
@@ -80,4 +93,4 @@ Proyek ini dilisensikan di bawah MIT License.
 
 📘 Manual Penggunaan
 Manual penggunaan aplikasi tersedia dalam folder:
-manual/UserManual.pdf.
+manual/manual.pdf.
